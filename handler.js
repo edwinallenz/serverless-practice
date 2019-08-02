@@ -1,11 +1,12 @@
 'use strict';
 
 module.exports.hello = async event => {
+    const reply = `Hello serverless node school ${event.pathParameters.name}`
   return {
     statusCode: 200,
     body: JSON.stringify(
       {
-          message: 'bar'
+          message: reply
       },
       null,
       2
