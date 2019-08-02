@@ -1,0 +1,16 @@
+{
+  "name": "serverless-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exec.js",
+  "dependencies": {
+    "serverless-offline": "^5.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
